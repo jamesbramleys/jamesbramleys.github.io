@@ -1,12 +1,411 @@
-<!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
-<head>
-<title>
-</title>
-<!--[if !mso]>
-<!-->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if mso]>
+    <xml>
+      <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+</head>
+<body align="center" width="100%" style="-webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        display: block;
+        margin: auto;
+        padding: 0;
+        max-width: 100%" bgcolor="#f2f2f2">
+    <style type="text/css">
+    @font-face {
+      font-family: "Segoe UI";
+      src: local("Segoe UI Light"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2")
+          format("woff2"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff")
+          format("woff"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.ttf")
+          format("truetype");
+      font-weight: 100;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Segoe UI";
+      src: local("Segoe UI Semilight"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2")
+          format("woff2"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff")
+          format("woff"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.ttf")
+          format("truetype");
+      font-weight: 300;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Segoe UI";
+      src: local("Segoe UI"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2")
+          format("woff2"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff")
+          format("woff"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.ttf")
+          format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Segoe UI";
+      src: local("Segoe UI Semibold"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff2")
+          format("woff2"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff")
+          format("woff"),
+        url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.ttf")
+          format("truetype");
+      font-weight: 600;
+      font-style: normal;
+    }
+
+
+    @media only screen and (max-width: 640px) {
+      body {background-color: #ffffff;}
+
+      div.grey-bg-container{background-color: #ffffff;}
+    }
+
+    @media only screen and (min-width: 640px) {
+      .CommentMention-TextRow-rightColumn {
+        width: 52px !important;
+      }
+    }
+
+
+    /* Responsive visibility clases. */
+    .u-largeOnly {
+      display: none !important;
+    }
+
+    @media only screen and (min-width: 640px) {
+      .u-smallOnly {
+        display: none !important;
+      }
+
+      .u-largeOnly {
+        display: block !important;
+      }
+    }
+
+    /* Adjustments to the Sharing template. */
+    @media only screen and (min-width: 640px) {
+      .Sharing-main {
+        padding: 40px !important;
+      }
+    }
+
+    @media only screen and (max-width: 640px) {
+      .NotificationHeader-icon {
+        width: 36px !important;
+      }
+      .NotificationHeader-title {
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+      }
+      .NotificationHeader-title-text {
+        font-size: 20px !important;
+        line-height: 28px !important;
+      }
+    }
+
+    .word-button:hover {
+      background-color: #124078 !important;
+      border-color: #124078 !important;
+    }
+
+    .word-button:active {
+      background-color: #002050 !important;
+      border-color: #002050 !important;
+    }
+
+    .powerpoint-button:hover {
+      background-color: #a92b1a !important;
+      border-color: #a92b1a !important;
+    }
+
+    .powerpoint-button:active {
+      background-color: #740912 !important;
+      border-color: #740912 !important;
+    }
+
+    .excel-button:hover {
+      background-color: #217346 !important;
+      border-color: #217346 !important;
+    }
+
+    .excel-button:active {
+      background-color: #004b1c !important;
+      border-color: #004b1c !important;
+    }
+</style>
+    <!--[if mso]>
+    <style type="text/css"> body,
+     table,
+     td {
+         font-family: 'Segoe UI', sans-serif !important;
+     }
+
+     a {
+         color: #0000EE;
+     }
+
+     </style>
+    <![endif]-->
+    <div align="center" style="padding:32px 10px 0px 10px;background-color:#F2F2F2;">
+        <!--[if mso]>
+        <table width="660" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 auto;max-width:640px;border:1px solid #c8c8c8;box-shadow:0px 3px 6px rgba(0,0,0,0.05);border-radius:8px;overflow:hidden;background-color:#ffffff;background:#ffffff;">
+            <![endif]-->
+        <!--[if !mso]>
+        <!---->
+        <table align="center" role="presentation" border="0" cellpadding="0" width="640" cellspacing="0" style="margin:0 auto;max-width:640px;border:1px solid #c8c8c8;box-shadow:0px 3px 6px rgba(0,0,0,0.05);border-radius:8px;overflow:hidden;background-color:#ffffff;background:#ffffff;">
+            <!--
+            <![endif]-->
+            <!--[if mso]>
+            <tr>
+                <td style="font-size: 1px; line-height: 1px; background: #ffffff" valign="top" width="640">&nbsp;</td>
+            </tr>
+            <![endif]-->
+            <colgroup>
+                <!--[if !mso]>
+                <!---->
+                <col width="640">
+                <!--
+                <![endif]-->
+            </colgroup>
+            <tbody>
+                <tr>
+                    <td colspan="3" align="center" style="padding-top:32px; padding-right:32px; padding-left:32px; background:#ffffff">
+                        <img width="40" height="auto" style="display:block" alt="On This Day Icon" src="cid:b2ea2d19-8728-43cb-9b85-048bdeb38ee2">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center" style="padding-top:16px; padding-right:32px; padding-left:32px; background:#ffffff">
+                        <p style="color:#323130; font-size:24px; font-weight:600; line-height:28.13px; margin:0; max-width:400px; padding:0; text-align:center">On this day</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center" style="padding-top:7px; padding-right:32px; padding-bottom:0px; padding-left:32px; background:#ffffff">
+                        <p style="color:#323130; font-size:16px; font-weight:400; line-height:18px; margin:0; max-width:400px; padding-bottom:29px; text-align:center">January 23</p>
+                    </td>
+                    <td align="center" width="640" height="29" style="background-color: #ffffff;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" style="background-color:#ffffff;border-top:1px solid #dedede;padding:29px 20px 28px" align="center">
+                        <p style="font-size:16px;line-height:20px;color:#323130;font-weight:400;margin:0px;padding:0px;text-align:center;max-width:560px">
+                            Look back at your memories from this day.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" align="center" style="background-color:#ffffff">
+                        
+           
+<!--[if mso]>
+  <table width="600" height="600" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:auto;table-layout:fixed;text-align:center;">
+<![endif]-->
+<!--[if !mso]><!---->
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed" align="center">
 <!--<![endif]-->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<style type="text/css">@import url(https://themes.googleusercontent.com/fonts/css?kit=dpiI8CyVsrzWsJLBFKehGqYMSS5scogCYx-XOM7ISce8RbxCsJ9qWb7iaRvR6qj5);ol{margin:0;padding:0}table td,table th{padding:0}.c28{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#f6f6f7;border-top-width:1pt;border-right-width:1pt;border-left-color:#f6f6f7;vertical-align:middle;border-right-color:#f6f6f7;border-left-width:1pt;border-top-style:solid;background-color:#f6f6f7;border-left-style:solid;border-bottom-width:1pt;width:159pt;border-top-color:#f6f6f7;border-bottom-style:solid}.c26{border-right-style:solid;padding:12.2pt 12.2pt 12.2pt 12.2pt;border-bottom-color:#f6f6f7;border-top-width:1pt;border-right-width:1pt;border-left-color:#f6f6f7;vertical-align:middle;border-right-color:#f6f6f7;border-left-width:1pt;border-top-style:solid;background-color:#f6f6f7;border-left-style:solid;border-bottom-width:1pt;width:159pt;border-top-color:#f6f6f7;border-bottom-style:solid}.c10{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#f6f6f7;border-top-width:1pt;border-right-width:1pt;border-left-color:#f6f6f7;vertical-align:middle;border-right-color:#f6f6f7;border-left-width:1pt;border-top-style:solid;background-color:#f6f6f7;border-left-style:solid;border-bottom-width:1pt;width:151.8pt;border-top-color:#f6f6f7;border-bottom-style:solid}.c21{border-right-style:solid;padding:41pt 41pt 41pt 41pt;border-bottom-color:#eeeeee;border-top-width:1pt;border-right-width:1pt;border-left-color:#eeeeee;vertical-align:top;border-right-color:#eeeeee;border-left-width:1pt;border-top-style:solid;background-color:#ffffff;border-left-style:solid;border-bottom-width:1pt;width:468pt;border-top-color:#eeeeee;border-bottom-style:solid}.c2{border-right-style:solid;padding:26.6pt 26.6pt 26.6pt 26.6pt;border-bottom-color:#eeeeee;border-top-width:1pt;border-right-width:1pt;border-left-color:#eeeeee;vertical-align:top;border-right-color:#eeeeee;border-left-width:1pt;border-top-style:solid;background-color:#eeeeee;border-left-style:solid;border-bottom-width:1pt;width:518.4pt;border-top-color:#eeeeee;border-bottom-style:solid}.c31{border-right-style:solid;padding:19.4pt 19.4pt 19.4pt 19.4pt;border-bottom-color:#6838f5;border-top-width:1pt;border-right-width:1pt;border-left-color:#6838f5;vertical-align:middle;border-right-color:#6838f5;border-left-width:1pt;border-top-style:solid;background-color:#6838f5;border-left-style:solid;border-bottom-width:1pt;width:150.2pt;border-top-color:#6838f5;border-bottom-style:solid}.c30{color:#ffffff;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Roboto";font-style:normal}.c3{color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Roboto";font-style:normal}.c6{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Roboto";font-style:normal}.c18{color:#5d3fde;font-weight:900;text-decoration:none;vertical-align:baseline;font-size:25pt;font-family:"Roboto";font-style:normal}.c8{color:#000000;font-weight:900;text-decoration:none;vertical-align:baseline;font-size:25pt;font-family:"Roboto";font-style:normal}.c9{color:#5d3fde;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Roboto";font-style:normal}.c14{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c0{color:#5a5a5a;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:8pt;font-family:"Roboto";font-style:normal}.c5{padding-top:0pt;padding-bottom:0pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c11{padding-top:0pt;padding-bottom:0pt;line-height:1.5;orphans:2;widows:2;text-align:left}.c7{padding-top:0pt;padding-bottom:10pt;line-height:1.5;text-align:left;height:11pt}.c25{padding-top:0pt;padding-bottom:0pt;line-height:1.15;text-align:left;height:11pt}.c13{padding-top:0pt;padding-bottom:0pt;line-height:1.15;page-break-after:avoid;text-align:left}.c1{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left;height:11pt}.c24{padding-top:0pt;padding-bottom:6pt;line-height:2.0;page-break-after:avoid;text-align:left}.c12{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left}.c29{margin-left:auto;border-spacing:0;border-collapse:collapse}.c15{border-spacing:0;border-collapse:collapse;margin-right:auto}.c17{font-size:7pt;font-family:"Roboto";color:#5a5a5a;font-weight:400}.res{display:none; float:left; overflow:hidden; width:0; max-height:0; line-height:0; mso-hide:all;}.c20{margin-left:auto;border-spacing:0;border-collapse:collapse;margin-right:auto}.c22{padding-top:0pt;padding-bottom:10pt;line-height:1.5;text-align:left}.c16{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:center}.c19{margin-left:36pt;orphans:2;widows:2}.c27{background-color:#ffffff;padding:auto; margin:auto;}.c23{orphans:2;widows:2}.c4{height:0pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style></head><body class="c27 doc-content"><p class="c23 c25"><span class="c14"></span></p><a id="t.1849857a02bd2c9ef4ab933b3dfe73564ca5a28b"></a><a id="t.0"></a><table width="640" border="0" cellpadding="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:15px; " align="center" class="c15"><tr class="c4"><td class="c2" colspan="1" rowspan="1"><p class="c1"><span class="c14"></span></p><a id="t.9255f23c74606fc51e72bb47ff233acdac5e41b4"></a><a id="t.1"></a><table class="c29"><tr class="c4"><td class="c21" colspan="1" rowspan="1"><p class="c22"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 55.50px; height: 20.00px;"><img alt="" src="cid:csn.edu" style="width: 55.50px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+                                <!--[if mso]>
+                    <tr>
+                                            <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                              <td style="font-size: 1px; line-height: 1px;valign="top" width="50">&nbsp;</td>
+                                  </tr>
+    <![endif]-->
+            <colgroup>
+            <!--[if !mso]><!---->
+                                  <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                                    <col width="50" style="width=8.333334%">
+                            <!--<![endif]-->
+            </colgroup>
+                                        <tbody><tr>
+                                    <td rowspan="1" colspan="6" style="padding:2px;">
+                      <a href="https://photos.onedrive.com/moments/OnThisDay/MXxzPTIwMjMtMDEtMjNUMDA6MDA6MDBaJmU9MjAyMy0wMS0yM1QyMzo1OTo1OS45OTlaJnJ0PTEm?cid=D9B1AEC0B22334D3&amp;count=14&amp;title=On+this+day&amp;subtitle=January+23&amp;startDate=2023-01-23T00%3a00%3a00Z&amp;endDate=2023-01-23T23%3a59%3a59.999Z&amp;locale=en-us&amp;msa=dale1jill@comcast.net&amp;sc=2&amp;id=D9B1AEC0B22334D3!1271">
+                      <img alt="HUNT0058.JPG" width="298" height="148" src="https://public.bn.files.1drv.com/y4mnwpY5kH9qewngy-XMDr4kNBoItOy0iooHlKm8IcEWfhZDzHX4f6_eBMPZZyMZM27geeGHRvvuaTDWZpMEWLPFAB43eJqb51YYQ_8NPJOPTCmq-DKrGmfIxv95fhojVQv8SZdhVurSwtEHrb9kPSnmRurMdSTqVM7bvCradR5cO4Unt4fSAJfuPcpcytgIz-Rtf9lApep50zAR1yDZ3sNIw?width=298&amp;height=148&amp;cropMode=center" style="display:block;">
+                      </a>
+                    </td>
+                                    <td rowspan="1" colspan="6" style="padding:2px;">
+                      <a href="https://photos.onedrive.com/moments/OnThisDay/MXxzPTIwMjMtMDEtMjNUMDA6MDA6MDBaJmU9MjAyMy0wMS0yM1QyMzo1OTo1OS45OTlaJnJ0PTEm?cid=D9B1AEC0B22334D3&amp;count=14&amp;title=On+this+day&amp;subtitle=January+23&amp;startDate=2023-01-23T00%3a00%3a00Z&amp;endDate=2023-01-23T23%3a59%3a59.999Z&amp;locale=en-us&amp;msa=dale1jill@comcast.net&amp;sc=2&amp;id=D9B1AEC0B22334D3!1268">
+                      <img alt="HUNT0059.JPG" width="298" height="148" src="https://public.bn.files.1drv.com/y4mMozYm2f3JoERhWRfEb00IFzX9AkTtpxby9HMYqA0YPdE9IrBRg2GJ8518ziGb4U6FvsrZJbTzJVbIiIeA3JQPJiu1fsRELicqYuyjGhOHcAqXIsLcxwxyvV0qvWwfRbeU-koXMXG9_efR1BOaeYaPYTTGEsTATp7L1m2YFQuNqtMFr9fdRdL5XFBRMumGZNixJYqaFEWIMIqqM5q9PCm-A?width=298&amp;height=148&amp;cropMode=center" style="display:block;">
+                      </a>
+                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" colspan="12" style="padding:2px;">
+                      <a href="https://photos.onedrive.com/moments/OnThisDay/MXxzPTIwMjMtMDEtMjNUMDA6MDA6MDBaJmU9MjAyMy0wMS0yM1QyMzo1OTo1OS45OTlaJnJ0PTEm?cid=D9B1AEC0B22334D3&amp;count=14&amp;title=On+this+day&amp;subtitle=January+23&amp;startDate=2023-01-23T00%3a00%3a00Z&amp;endDate=2023-01-23T23%3a59%3a59.999Z&amp;locale=en-us&amp;msa=dale1jill@comcast.net&amp;sc=2&amp;id=D9B1AEC0B22334D3!1265">
+                      <img alt="HUNT0062.JPG" width="600" height="296" src="https://public.bn.files.1drv.com/y4mcIKj4CQ5U_P1kyTPEya49Dy08K9qoD6UieMwpnEceA8EVjFQp36ldme5xiPj9FLlqocti15L8rd183QUgO2JjFtWs7gkT3zN39TnwwiqxhDiyGHZFHsDVyB45hjbWiXRLuoVdZnq5CkJopGOiecPR8Qosf6rK3KYWW0CxnDO1Kcd8YFRGEx6mVvXAISfVJGqgCgh3OjXBFts2nhOTOQ5dg?width=600&amp;height=296&amp;cropMode=center" style="display:block;">
+                      </a>
+                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" colspan="6" style="padding:2px;">
+                      <a href="https://photos.onedrive.com/moments/OnThisDay/MXxzPTIwMjMtMDEtMjNUMDA6MDA6MDBaJmU9MjAyMy0wMS0yM1QyMzo1OTo1OS45OTlaJnJ0PTEm?cid=D9B1AEC0B22334D3&amp;count=14&amp;title=On+this+day&amp;subtitle=January+23&amp;startDate=2023-01-23T00%3a00%3a00Z&amp;endDate=2023-01-23T23%3a59%3a59.999Z&amp;locale=en-us&amp;msa=dale1jill@comcast.net&amp;sc=2&amp;id=D9B1AEC0B22334D3!1261">
+                      <img alt="HUNT0067.JPG" width="298" height="148" src="https://public.bn.files.1drv.com/y4ml1aXZix0mHtPp9D0A3Niaoe9w3B7YIF14LQe-dPD5gvSuNpVI2GXdn-y6_91knpyq0STGxvIbmxR0Feye_JP2DI6jycMOz_sQo0pk2-2gzcEh0T1ZVdDwYLLVLdvFUSwjQYMg_cPsWgx_UvFj9EKVxmrevjAMOdzcDwRDwMeFztMnOuyeol4UD5HrF9-Lbfi0OGDu8EgdfrKI2QpJ3c_iA?width=298&amp;height=148&amp;cropMode=center" style="display:block;">
+                      </a>
+                    </td>
+                                    <td rowspan="1" colspan="6" style="padding:2px;">
+                      <a href="https://photos.onedrive.com/moments/OnThisDay/MXxzPTIwMjMtMDEtMjNUMDA6MDA6MDBaJmU9MjAyMy0wMS0yM1QyMzo1OTo1OS45OTlaJnJ0PTEm?cid=D9B1AEC0B22334D3&amp;count=14&amp;title=On+this+day&amp;subtitle=January+23&amp;startDate=2023-01-23T00%3a00%3a00Z&amp;endDate=2023-01-23T23%3a59%3a59.999Z&amp;locale=en-us&amp;msa=dale1jill@comcast.net&amp;sc=2&amp;id=D9B1AEC0B22334D3!1262">
+                      <img alt="HUNT0065.JPG" width="298" height="148" src="https://public.bn.files.1drv.com/y4mKtspKL9LBvfOijZZlJxEhMG0oMjKaK63v7sxqjzc97zbx_LvjYWrT5O-dQA7ObaF9-_WawGQmIkV2r-RkenrXe2ndFgx-hyGNMYTuxKN3KXG0gHstL0B2FTsqkiDquImNH-zP2ZP-aj9aFXqmQ7yOpbltRzfLe87JDaUnbKc3IuAuDSPiK0a5MJUHsoqsaNrvzoLowJExamhw-HLUXABxA?width=298&amp;height=148&amp;cropMode=center" style="display:block;">
+                      </a>
+                    </td>
+                                </tr>
+                        </tbody></table>
+
+
+                        <table role="presentation" align="center" border="0" cellpadding="0" width="640" cellspacing="0" style="border-bottom: 1px solid #C8C8C8; border-radius:8px; margin: 0 auto; max-width: 640px; box-shadow: 0px 3px 6px rgba(0,0,0,0.05); overflow: hidden; background-color: #ffffff; background: #ffffff;">
+                            <tbody>
+                                <tr>
+                                    <td align="left" valign="top" width="640" style="background-color: #eaeaea;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" style="padding:32px 0px;height:40px;background-color:#ffffff;width:650px;text-align:center;border-bottom:none">
+
+                                        <a href="https://photos.onedrive.com/moments/OnThisDay/MXxzPTIwMjMtMDEtMjNUMDA6MDA6MDBaJmU9MjAyMy0wMS0yM1QyMzo1OTo1OS45OTlaJnJ0PTEm?cid=D9B1AEC0B22334D3&amp;count=14&amp;title=On+this+day&amp;subtitle=January+23&amp;startDate=2023-01-23T00%3a00%3a00Z&amp;endDate=2023-01-23T23%3a59%3a59.999Z&amp;locale=en-us&amp;msa=dale1jill@comcast.net&amp;sc=2" style="background-color:#0078d4;border-color:#0078d4;border-radius:2px;border-style:solid;color:#ffffff;display:inline-block;font-size:16px;text-decoration:none;text-align:center;line-height:46px;width:223px">
+                                            View all memories
+                                        </a>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" valign="top" style="background-color: #F8F8F8;width:650px;">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="640">
+                                            <tbody><tr>
+                                                <td colspan="3" align="center" style="padding-top:26px; padding-right:32px; padding-left:32px; background:#f8f8f8">
+                                                    <img width="20" height="auto" style="display:block" alt="Privacy Icon" src="cid:9d6d9ce1-74e8-4319-b1bb-c9302df0d84a">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3" align="center" style="padding-right:32px; padding-top:4px; padding-left:32px; padding-bottom:15px; background:#f8f8f8">
+                                                    <p style="color:#000000; font-size:16px; font-weight:400; line-height:22px; margin:0; max-width:400px; padding:0px; text-align:center">Your privacy matters</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3" align="center" style="border-bottom: 1px solid #dedede; padding-bottom:25px; padding-right: 32px; padding-left: 32px; background: #f8f8f8">
+                                                    <p style="color:#323130; font-size:16px; font-weight:300; line-height:22px; margin:0; max-width:400px; padding:0; text-align:center">No human saw your photos, and no additional storage was used when this collection was created.</p>
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" valign="top" width="640" style="background-color: #F8F8F8;width: 650px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="640" align="center" bgcolor="#ffffff">
+                                            <tbody><tr>
+                                                <td align="center" valign="top" style="background-color: #F8F8F8;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody><tr>
+                                                            <td align="center" style="background-color: #F8F8F8; color: #333333; font-family: 'Segoe UI', 'Segoe UI', Tahoma, Arial, sans-serif; font-size: 16px; font-weight: normal; padding-bottom: 20px; padding-top: 20px; padding-right: 20px; padding-left: 20px;">
+                                                                Do you like this email? <a @(emailtracker.donottrackattribute)="" href="mailto: onedrive-recap@microsoft.com?subject=Feedback for your memories from this day" style="color:#323130">Give feedback</a><br>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--[if mso]>
+    <table width="640" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 auto;max-width:640px;overflow:hidden;">
+        <![endif]-->
+    <!--[if !mso]>
+    <!---->
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;max-width:640px;overflow:hidden;">
+        <!--
+        <![endif]-->
+        <!--[if mso]>
+        <tr>
+            <td style="font-size: 1px; line-height: 1px; background: none" valign="top" width="64">&nbsp;</td>
+            <td style="font-size: 1px; line-height: 1px; background: none" valign="top" width="256">&nbsp;</td>
+            <td style="font-size: 1px; line-height: 1px; background: none" valign="top" width="135">&nbsp;</td>
+            <td style="font-size: 1px; line-height: 1px; background: none" valign="top" width="175">&nbsp;</td>
+        </tr>
+        <![endif]-->
+        <colgroup>
+            <!--[if !mso]>
+            <!---->
+            <col width="64" style="width:10%">
+            <col width="256" style="width:40%">
+            <col width="135" style="width:21.09375%">
+            <col width="175" style="width:27.34375%">
+            <!--
+            <![endif]-->
+        </colgroup>
+
+        <tbody>
+              <!-- Standard Footer -->
+
+
+
+
+</tbody></table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f2">
+    <tbody><tr>
+        <td width="660" align="left" valign="top">
+            <table width="660" border="0" cellspacing="0" cellpadding="0" bgcolor="#f2f2f2" align="center">
+                <tbody><tr>
+                    <td align="left" valign="top" width="660" style="background-color: #f2f2f2;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody><tr>
+                                <td align="center" valign="top" width="660" style="background-color: #f2f2f2;">
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody><tr>
+                                            <td align="left" style="background-color: #f2f2f2; padding-top: 20px; padding-right: 20px; padding-left: 20px;">
+                                                <img src="cid:397ffabe-e7b5-416e-929c-a68c97ebe8a1" alt="Microsoft" border="0" width="90" style="border: 0;">
+                                            </td>
+                                            <td align="right" style="background-color: #f2f2f2; color: #333333; font-family: 'Segoe UI', 'Segoe UI', Tahoma, Arial, sans-serif;text-align:right; font-size: 11px; font-weight: normal; padding-top: 20px; padding-right: 20px; padding-left: 20px;">
+ <a href="https://aka.ms/privacy" target="_blank" style="color: #333333;text-align:right;">Privacy Statement</a> | <a style="color:#000000" href="https://go.microsoft.com/fwlink/?linkid=2189717">Unsubscribe</a>
+                                                <span style="color: #333333;">| </span>
+                                                <a href="https://support.microsoft.com/en-us/onedrive" target="_blank" style="color: #333333; text-align: right;">Help Page</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" colspan="2" style="background-color: #f2f2f2; color: #333333; font-family: 'Segoe UI', 'Segoe UI', Tahoma, Arial, sans-serif;text-align:right; font-size: 11px; font-weight: normal; padding-bottom: 32px; padding-right: 20px; padding-left: 20px;">
+                                                <p style="margin: 0;">Microsoft Corporation, One Microsoft Way, Redmond, WA, USA 98052</p>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
